@@ -1,0 +1,67 @@
+
+#navbar-logo {
+  width: 2em;
+}
+#presentation-image {
+  height: 75vh;
+}
+.text-orange {
+  color: rgb(255, 93, 0);
+}
+.animation-orange:hover {
+  animation: color-orange 1s forwards;
+}
+
+@keyframes color-orange {
+  0% {
+    color: inherit;
+  }
+  100% {
+    color: rgb(255, 93, 0);
+  }
+}
+
+#panels-container {
+  min-height: 90vh;
+}
+.features {
+  border-radius: 1em;
+}
+
+#stack {
+  min-height: 50vh;
+}
+#stack p {
+  letter-spacing: 1rem;
+}
+
+.alert {
+  border: 1px solid  rgb(255, 93, 0);
+  color: rgb(255, 93, 0);
+}
+.resume-card {
+  max-width: 50%;
+  margin: 10px;
+}
+
+@media (max-width: 600px) {
+  .nav-item {
+    text-align: center;
+    margin-bottom: 10px;
+  }
+  #social-links {
+    margin: auto;
+  }
+  #presentation-image {
+    display: block;
+    margin: auto;
+    width: 30%;
+    height: auto;
+  }
+  #title-container h1, p {
+    text-align: center;
+  }
+  .resume-card {
+    max-width: 100%;
+  }
+}
